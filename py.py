@@ -18,6 +18,7 @@ from groq import Groq
 from ollama import Client as OlClient
 import cohere as coclient
 import os
+from datetime import datetime
 
 SCOPES = ["https://mail.google.com/"]
 creds = Credentials.from_authorized_user_file("token.json", SCOPES)
@@ -25,7 +26,7 @@ service = build("gmail", "v1", credentials=creds)
 
 load_dotenv()
 
-query = "SELECT * FROM stack WHERE exec != 'running' LIMIT 1"
+query = "SELECT * FROM stack WHERE exec != 'running' AND exec != 'debug' LIMIT 1"
 
 conn = mysql.connector.connect(
     host=os.getenv("DB_HOST"),
@@ -41,17 +42,31 @@ ollama = OlClient(os.getenv('OLLAMA_HOST'))
 cohere = coclient.ClientV2(os.getenv('COHERE_API_KEY'))
 cursor = conn.cursor(dictionary=True)
 row = None
+debug=False
+if __name__ == "__main__":
+    debug=True
 def main():
+    print(debug)
+    rowcount=-1
     while True:
-        cursor.execute(query)
+        rowcount+=1
+        if debug == False:
+            cursor.execute(query)
+        else:
+            cursor.execute("SELECT * FROM stack WHERE exec = 'debug'")
+
         rows = cursor.fetchall()
         conn.commit() 
-        print(rows)
+        
         if not rows:
             print("breaking...")
             break
         global row
-        row = rows[0]
+        if debug == False:
+            row = rows[0]
+        else:
+            if rowcount >2: break
+            row = rows[rowcount]
         descr = row["descr"]
         jobtype = row["type"]
 
@@ -95,7 +110,7 @@ def main():
         
         tempurl = Template(Path("prompturl.jinja").read_text())
         prompturl = tempurl.render()
-        aiurl = llm(system = prompturl,user = descr+jobtype)
+        aiurl = llm(system = prompturl,user = descr)
         print(aiurl)
         result = {}
         loop = False
@@ -301,13 +316,17 @@ def main():
 
             tempmsg = Template(Path("promptmsg.jinja").read_text())
             promptmsg = tempmsg.render(desc= descr, type=jobtype, cnp = result["common_name_part"], dp = result["domain_parts"])
-            aimsg = llm(user = promptmsg)
-            # aimsg = "Hello Amica Early Learning, I saw your Upwork post..."
+            if debug == False:
+                aimsg = llm(user = promptmsg)
+            else:
+                aimsg = "Hello Amica Early Learning, I saw your Upwork post..."
 
             temptitle = Template(Path("prompttitle.jinja").read_text())
             prompttitle = temptitle.render(desc=descr)
-            aititle=llm(user=prompttitle)
-            # aititle = "help with your Upwork post"
+            if debug == False:
+                aititle=llm(user=prompttitle)
+            else:
+                aititle = "help with your Upwork post"
 
             if allemails:
                 ecount=0
@@ -325,9 +344,9 @@ def main():
                     # service.users().messages().send(userId="me", body={"raw": encoded_msg,"labelIds": ["SENT"]}).execute()
                     draft = service.users().drafts().create(userId="me", body={"message": {"raw": encoded_msg}}).execute()
                     print("📧 Draft created:", draft["id"])
-
-        cursor.execute("DELETE FROM stack WHERE id = %s", (row["id"],))
-        print(f"Deleted processed row with id: {row['id']}")
+        if debug == False:
+            cursor.execute("DELETE FROM stack WHERE id = %s", (row["id"],))
+            print(f"Deleted processed row with id: {row['id']}")
         cursor.execute("INSERT INTO upwork (`desc`, url, env, upwork_link, relevant_links, socials, email, application, title) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)", (descr, aiurl, jobtype, row["upwork"], json.dumps(result.get("relevant_links",[])), json.dumps(result.get("social_links",[])), json.dumps(list(allemails)), aimsg, aititle))
         conn.commit()
 
@@ -335,6 +354,7 @@ try:
     main()
 except Exception as e:
     print (e)
-    # cursor.execute("UPDATE stack SET exec = 'running' WHERE id = %s", (row["id"],))
+    if debug == False:
+        cursor.execute("UPDATE stack SET exec = 'running' WHERE id = %s", (row["id"],))
     print(cursor, "done", row["id"])
     conn.commit()
