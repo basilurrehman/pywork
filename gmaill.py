@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 import base64
 from email.message import EmailMessage
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
+SCOPES = ["https://mail.google.com/"]
 creds = Credentials.from_authorized_user_file("token.json", SCOPES)
 service = build("gmail", "v1", credentials=creds)
 
@@ -13,6 +13,7 @@ msg["From"] = "yourprogway@gmail.com"
 msg["Subject"] = "Test Email"
 msg.set_content("Hello! This is sent via Gmail API.")
 
-encoded_msg = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-service.users().messages().send(userId="me", body={"raw": encoded_msg,"labelIds": ["SENT"]}).execute()
-print("📧 Email sent successfully!")
+encoded_msg = base64.urlsafe_b64encode(msg.as_bytes()).decode("utf-8").replace("\n","")
+draft = service.users().drafts().create(userId="me", body={"message": {"raw": encoded_msg}}).execute()
+
+print("📧 Draft created:", draft["id"])

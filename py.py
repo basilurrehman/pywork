@@ -301,13 +301,13 @@ def main():
 
             tempmsg = Template(Path("promptmsg.jinja").read_text())
             promptmsg = tempmsg.render(desc= descr, type=jobtype, cnp = result["common_name_part"], dp = result["domain_parts"])
-            # aimsg = llm(user = promptmsg)
-            aimsg = "Hello Amica Early Learning, I saw your Upwork post..."
+            aimsg = llm(user = promptmsg)
+            # aimsg = "Hello Amica Early Learning, I saw your Upwork post..."
 
             temptitle = Template(Path("prompttitle.jinja").read_text())
             prompttitle = temptitle.render(desc=descr)
-            # aititle=llm(user=prompttitle)
-            aititle = "help with your Upwork post"
+            aititle=llm(user=prompttitle)
+            # aititle = "help with your Upwork post"
 
             if allemails:
                 ecount=0
@@ -321,10 +321,10 @@ def main():
                     msg["Subject"] = f"I will {aititle}".replace("\n", " ").replace("\r", " ").strip()
                     msg.set_content(aimsg)
 
-                    encoded_msg = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-                    print("done")
-                    service.users().drafts().create(userId="me", body={'message':{"raw": encoded_msg}}).execute()
-                    print(f"Email sent to: {email}")
+                    encoded_msg = base64.urlsafe_b64encode(msg.as_bytes()).decode("utf-8").replace("\n","")
+                    # service.users().messages().send(userId="me", body={"raw": encoded_msg,"labelIds": ["SENT"]}).execute()
+                    draft = service.users().drafts().create(userId="me", body={"message": {"raw": encoded_msg}}).execute()
+                    print("📧 Draft created:", draft["id"])
 
         cursor.execute("DELETE FROM stack WHERE id = %s", (row["id"],))
         print(f"Deleted processed row with id: {row['id']}")
