@@ -542,3 +542,1012 @@ https://www.dialedin.de
 Deleted processed row with id: 2150
 []
 breaking...
+[{'id': 2155, 'created_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'updated_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'descr': 'We are looking for a highly detail-oriented QA Engineer with hands-on experience testing Shopify-based eCommerce websites.\nThe ideal candidate will be responsible for end-to-end (E2E) quality assurance, ensuring our Shopify storefront delivers a bug-free, fast, secure, and visually consistent experience across all browsers, devices, screen sizes, and user scenarios.\n\nThis role requires both manual and automated testing, deep understanding of Shopify themes, Liquid rendering behavior, front-end JavaScript issues, and modern QA tooling.\n\nKey Responsibilities\n1. End-to-End (E2E) Functional Testing – Shopify Flows\n\nYou will design and execute complete E2E test scenarios, including but not limited to:\n\nHomepage → Collection → Product Page → Cart → Checkout → Order Confirmation\n\nLogged-out and logged-in user flows\n\nGuest checkout vs customer account checkout\n\nDiscount codes, automatic discounts, and stacked promotions\n\nShipping rules, taxes (region-based), and currency behavior\n\nPayment gateway testing (Shopify Payments, PayPal, third-party gateways)\n\nInventory availability, backorders, out-of-stock handling\n\nOrder confirmation emails and transactional flows\n\nRefunds, cancellations, and edge cases\n\n2. Visual & UI Regression Testing\n\nResponsible for detecting any visual or layout issues, including:\n\nUI overlaps, broken sections, misalignment\n\nFont issues, spacing inconsistencies, padding/margin errors\n\nBroken or missing images, icons, banners\n\nSticky headers, modals, drawers, popups behavior\n\nAnnouncement bars, cart drawers, mega menus\n\nCLS (Cumulative Layout Shift) detection during page load\n\nRegression testing after:\n\nTheme updates\n\nApp installations/removals\n\nCSS/JS changes\n\nShopify OS updates\n\nYou must ensure pixel-level visual consistency across releases.\n\n3. Multi-Browser & Cross-Platform Testing\n\nExecute tests across all major browsers and environments:\n\nDesktop:\n\nChrome\n\nFirefox\n\nSafari\n\nEdge\n\nMobile browsers:\n\niOS Safari\n\nAndroid Chrome\n\nTest both:\n\nNormal browser sessions\n\nIncognito / private mode\n\nTest with:\n\nFresh cache\n\nCleared cookies/local storage\n\nReturning sessions with cached assets\n\n4. Responsive & Multi-Screen Size Testing\n\nEnsure perfect behavior across all breakpoints:\n\nMobile (small, medium, large devices)\n\nTablets (portrait & landscape)\n\nLaptop screens\n\nLarge desktop / widescreen monitors\n\nValidate:\n\nResponsive layouts\n\nMobile navigation and gestures\n\nTouch vs click interactions\n\nImage scaling and lazy loading\n\nCTA visibility and usability on small screens\n\n5. JavaScript, Console & Network Error Monitoring\n\nYou will actively inspect and report:\n\nJavaScript runtime errors\n\nConsole warnings and errors\n\nFailed API calls and network requests\n\nThird-party script issues (apps, analytics, tracking pixels)\n\nShopify AJAX cart errors\n\nRace conditions and async loading issues\n\nBroken event tracking or GTM/analytics scripts\n\nAll issues must be logged with clear reproduction steps.\n\n6. Performance, Speed & Core Web Vitals Testing\n\nTest and report on:\n\nPage load speed (LCP, FCP, TTFB)\n\nCLS (layout shift)\n\nINP / interaction responsiveness\n\nHeavy scripts and render-blocking assets\n\nApp impact on performance\n\nMobile vs desktop performance differences\n\nCache behavior (CDN, browser cache, hard refresh)\n\nYou must identify what causes performance degradation, not just report scores.\n\n7. Link Validation & Navigation QA\n\nResponsible for:\n\nBroken internal links\n\nBroken external links\n\nIncorrect redirects\n\nCanonical issues affecting navigation\n\nPagination and infinite scroll behavior\n\nBreadcrumb accuracy\n\nFooter and header link coverage\n\n8. Shopify App & Third-Party Integration Testing\n\nTest compatibility and conflicts related to:\n\nInstalled Shopify apps\n\nTheme app blocks\n\nTracking scripts (Google Analytics, Meta, TikTok, etc.)\n\nChat widgets, popups, upsell tools\n\nApp uninstall remnants (JS/CSS leftovers)\n\n9. Security & Data Integrity Testing (Non-Penetration)\n\nPerform QA-level security checks including:\n\nConsole exposure of sensitive data\n\nAPI tokens or keys leaking in frontend\n\nCheckout tampering attempts (price, quantity, discount misuse)\n\nForm validation (XSS-safe inputs)\n\nHTTPS enforcement\n\nCookie and local storage behavior\n\nSession handling and logout behavior\n\n(Note: This is QA-level validation, not ethical hacking.)\n\n10. Automation & Test Framework Responsibilities\n\nYou will be expected to:\n\nDesign or maintain automated E2E test suites\n\nAutomate:\n\nCritical purchase flows\n\nRegression checks\n\nVisual testing\n\nConsole error detection\n\nConfigure tests to run:\n\nOn different screen sizes\n\nOn different browsers\n\nOn CI/CD pipelines\n\nCapture:\n\nScreenshots\n\nVideos\n\nConsole logs\n\nNetwork traces\n\nMaintain stable test environments with minimal false positives\n\n11. Reporting & Documentation\n\nYou must deliver professional QA reports that include:\n\nTest coverage summary\n\nPass/fail status per test case\n\nScreenshots for every failure\n\nVideos or traces (where applicable)\n\nConsole error logs\n\nPerformance metrics\n\nClear reproduction steps\n\nSeverity classification (Critical / High / Medium / Low)\n\nSuggested fixes or root-cause hints (when possible)\n\nReports must be easy for developers and stakeholders to understand.\n\nRequired Skills & Experience\n\nStrong experience with Shopify storefront QA\n\nDeep understanding of:\n\nShopify themes & Liquid rendering\n\nFrontend HTML, CSS, JavaScript\n\nExperience testing eCommerce checkout flows\n\nExperience with:\n\nVisual regression testing\n\nCross-browser testing\n\nResponsive testing\n\nFamiliarity with:\n\nBrowser DevTools\n\nConsole & Network debugging\n\nExperience with QA automation tools (manual + automated)\n\nStrong attention to detail and edge cases', 'upwork': 'https://www.upwork.com/jobs/test-for-Shopify-website_~022014329986133608129/?referrer_url_path=/nx/search/jobs/', 'type': 'dev', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+null
+
+The provided text is a detailed job description for a QA Engineer role focused on Shopify eCommerce testing. It contains only descriptive content about responsibilities, required skills, and tasks, without any embedded hyperlinks or URLs. Since there are no web addresses included, there is no possible link that could lead to the employer’s contact information, portfolio, personal website, or any related project site. Consequently, no URL can be extracted or returned.
+Deleted processed row with id: 2155
+[{'id': 2156, 'created_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'updated_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'descr': 'We are looking for a senior Framer designer / developer with proven experience delivering conversion-focused agency websites to build the website of our digital e-commerce agency, Koudecom.\n\nThis is not a simple showcase website.\nThe homepage must be designed as a highly strategic conversion funnel, with a strong focus on clarity, positioning, trust, and lead generation.\n\nAbout Koudecom\n\nKoudecom is a digital e-commerce & growth agency focused on building high-performing brands and conversion-driven websites.\n\nOur expertise covers:\n\n• Branding & positioning for digital-first brands\n• Website creation (WordPress & Shopify)\n• Conversion Rate Optimization (CRO)\n• UX/UI design\n• Paid advertising (Ads)\n\nOur website must reflect a modern, minimal, premium, and conversion-driven positioning, aligned with high-end digital agencies.\n\nDesign Direction & Inspiration\n\nWe are looking for a clean, modern, agency-level aesthetic with strong UX and conversion fundamentals, inspired by:\n\nhttps://www.talentium.io/\nhttps://uxhover.co/\nhttps://la-landing.fr/\n\nScope & Technology\n\n• Main technology: Framer (template or fully custom — based on your recommendation)\n• Branding provided: logo + color palette\n\nYou will be responsible for the overall layout, UX structure, animations, and visual coherence, while fully respecting the provided branding.\n\nWebsite Structure\n\nThe site is built around a conversion-first homepage, designed as a funnel:\n\n• Strong hero section (clear positioning & value proposition)\n• Services overview\n• Methodology / approach\n• Client logos displayed as animated sections (instead of a classic portfolio)\n• Testimonials integrated directly into the homepage\n• Clear and visible CTAs (contact / book a call)\n\nAdditional pages (simple and structured):\n\n• About\n• Services (sections or dedicated pages):\n– Website creation (WordPress)\n– Website creation (Shopify)\n– Branding & positioning\n– CRO\n– UX/UI Design\n– Ads\n• Contact\n\nDeliverables Expected\n\n• Fully functional Framer website\n• Responsive design (desktop & mobile)\n• Subtle, high-quality animations and transitions\n• Clean SEO structure (H1/H2 hierarchy, meta titles & descriptions)\n• Well-organized Framer file with handover documentation\n\nProfile We’re Looking For\n\nWe are looking for someone who:\n\n• Knows Framer inside and out\n• Has already delivered similar agency or conversion-oriented websites\n• Has strong UX/UI and visual design skills\n• Understands conversion psychology and funnel logic\n• Is autonomous, proactive, detail-oriented, and communicative\n\nQuestions for Applicants\n\n1. Can you share Framer projects you’ve built, especially agency or conversion-focused websites?\n2. Have you worked with Framer templates or fully custom builds? Which approach do you usually recommend and why?\n3. How would you structure a homepage as a conversion funnel for a service-based agency?\n4. What improvements would you suggest to maximize lead generation on this site?\n5. What is your estimated timeline for this project?\n\nAre you comfortable working from an existing logo and color palette?\n\nBudget & Timeline\n\n• Budget: Open to discussion, depending on experience and portfolio\n• Timeline: Ideally 2–4 weeks\n\nIMPORTANT\n\nPlease include at least 2–3 Framer projects similar to conversion-focused agency websites.\nApplications without relevant Framer examples will not be considered.', 'upwork': 'https://www.upwork.com/jobs/Senior-Framer-Designer-Developer-Conversion-Focused-Agency-Website_~022014324495988340858/?referrer_url_path=/nx/search/jobs/', 'type': 'dev', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+null
+
+The text only contains three URLs (https://www.talentium.io/, https://uxhover.co/, https://la-landing.fr/) which are explicitly listed as design inspiration references. These are not the employer’s own website, portfolio, or contact page, and they are not personal websites of the job poster. No other URLs are present that could lead to Koudecom’s contact information or a portfolio relevant to the hiring agency. Therefore, there is no appropriate URL to return.
+Deleted processed row with id: 2156
+[{'id': 2157, 'created_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'updated_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'descr': 'Hi! I’m a product designer with an existing UI and visual language in Figma, and I’m looking for an experienced Design System specialist to help me turn it into a scalable design system using Tailwind CSS and shadcn/ui.\n\nThis is not about designing from scratch — the design already exists. The goal is to translate it properly into tokens, components, and a maintainable system.\n\n⚠️ Important: This project requires working closely together, reviewing decisions live, and building parts of the system in real time.\nBecause of this, a strong level of spoken and written English is required to communicate clearly, explain decisions, and collaborate efficiently.\n\n⸻\n\n🎯 What I need help with\n\t•\tDefining design tokens (colors, typography, spacing, radii, shadows, etc.)\n\t•\tMapping Figma styles → Tailwind config\n\t•\tSetting up and customizing shadcn/ui components to match the design\n\t•\tEstablishing clear naming conventions\n\t•\tEnsuring scalability, consistency, and future-proof structure\n\t•\tLive reviews, shared screens, and iterative system refinement\n\n⸻\n\n👤 Ideal profile\n\nYou are someone who:\n\t•\tHas real experience building design systems, not just using Tailwind\n\t•\tUnderstands the bridge between design and code\n\t•\tIs comfortable working live (calls, screen sharing, joint reviews)\n\t•\tCan clearly explain trade-offs and decisions in English\n\t•\tThinks in systems, not one-off components\n\nhttps://www.figma.com/design/pyf9D5dst3JW24pB7mytkA/Shadcn-ui--Community-?node-id=447-29445&m=dev', 'upwork': 'https://www.upwork.com/jobs/Design-System-Expert-needed-Tailwind-shadcn-systematize-existing-Figma-design_~022014323687974523729/?referrer_url_path=/nx/search/jobs/', 'type': 'dev', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+null
+
+The only URL present is a link to a Figma design file. This is a reference to a design project rather than the employer’s personal website, portfolio, or contact page. It does not appear to provide direct contact information or serve as the employer’s own site, so it does not meet the criteria for returning a URL.
+Deleted processed row with id: 2157
+[{'id': 2158, 'created_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'updated_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'descr': "We need a website developer / designer for a new website. It's an easy webshop with some simple pages. Nothing special. We do really care about look and feel. We have photos and logos that we can use, for us, most important part is branding. Look and feel exactly like this.\n\nhttps://trainmore.com/\n(another example for look and feel: https://www.instagram.com/intercell_events/)\n\nKeep in mind that there is a lot of information on this website, this is not needed.\n\nI need a website with a page with the products, and about & contact page.\n\nHow much would this be and do you think this is something for you? \n\nHope you can help us out!", 'upwork': 'https://www.upwork.com/jobs/Website-developer-needed-for-new-webshop-platform_~022014302479787033611/?referrer_url_path=/nx/search/jobs/', 'type': 'dev', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+null
+
+The only URLs present are https://trainmore.com/ and https://www.instagram.com/intercell_events/. Both are cited as examples of the desired look and feel and serve as inspiration rather than the employer’s own site or a place where their contact information would be listed. No other URLs are provided that could lead to the employer’s contact details, portfolio, or personal website. Consequently, there is no suitable URL to return.
+Deleted processed row with id: 2158
+[{'id': 2159, 'created_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'updated_at': datetime.datetime(2026, 1, 22, 15, 2, 12), 'descr': '### 1. Client Business Overview\n\n* **Business Type:** Camcorder rental company for events\n* **Core Functionality:**\n\n  * Online rentals via Shopify\n  * Date-based booking using a **rental calendar app**\n  * Customers select available dates, pay online, and book cameras seamlessly\n  * Admin manages availability and bookings through Shopify\n\n---\n\n### 2. Website Goal\n\nCreate a **custom Shopify theme** that feels:\n\n* Nostalgic but elevated\n* Playful, stylish, and intentional\n* Clean, editorial, and modern\n* Memorable and visually distinct\n\nThe site should **stand out from typical rental or tech websites** and feel like a lifestyle/creative brand rather than a utility platform.\n\n---\n\n### 3. Design Direction / Vibe\n\n* **Primary Aesthetic:** Y2K / early 2000s inspired\n* **Tone:** Chic, clean, modern — *not* cluttered or cheesy\n* **Feel:** Fun, cool, curated, and intentional\n* **Priority:** Editorial layout over sales-heavy design\n\n---\n\n### 4. What the Client Does NOT Want\n\n* No generic rental-site look\n* No overly techy or corporate layouts\n* No cluttered or overly trendy elements\n* Avoid cheesy Y2K graphics\n\n---\n\n### 5. Inspiration Websites\n\nUse these for overall vibe, pacing, and brand feel (not to copy directly):\n\n* (https://rosievisionstudio.com/)\n* (https://handheldstudio.com/)\n\n---\n\nA streamlined website focusing on essential pages while maintaining a fully custom look and feel.\n\n#### Pages to Build:\n\n1. **Home**\n\n   * Hero section\n   * Brand introduction\n   * How It Works (summary)\n   * FAQs (summary)\n\n2. **Rent a Camcorder**\n\n   * Product-style layout\n   * Ecommerce + payment integration\n   * Calendar-ready structure \n\n3. **Contact**\n\n   * Simple contact form\n   * Optional social links\n\n4. **Gallery**\n\n   * Placeholder layout for future photos/videos\n\n5. **Policies**\n\n   * Basic rental and usage policies (simple layout)\n\n---\n\n### 7. Technical Notes\n\n* Shopify platform\n* Custom theme (not a pre-made theme)\n* Easy-to-edit, drag-and-drop sections for future updates\n* Rental calendar \n* Calendar booking UI should be styled to match the custom theme\n\n---\n\n### 8. Timeline \n\n* **Timeline:** 10-13 business days', 'upwork': 'https://www.upwork.com/jobs/Custom-Shopify-Theme-camcorder-rental-brand-DESIGN-BRAND-SKILLS-IMPORTANT_~022014298461179823628/?referrer_url_path=/nx/search/jobs/', 'type': 'dev', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+null
+
+The only URLs present in the provided text are https://rosievisionstudio.com/ and https://handheldstudio.com/. Both are explicitly listed under “Inspiration Websites,” indicating they are external reference sites used for design inspiration, not the employer’s own website, portfolio, or contact page. According to the instructions, URLs that serve as references or inspiration sources must be excluded. No other URLs appear in the content, so there is no link that could lead to the employer’s contact information or personal site. Hence, the appropriate response is `null`.
+Deleted processed row with id: 2159
+[{'id': 2160, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We’re a martial arts (MMA academy) offering classes in various disciplines from Brazilian Jiu Jitsu to Muay Thai - see our website www.ATTKissimmee.com. \n\nI have just started working with an AI telephone service so i will be monitoring that but some calls will need a live person, i believe during your work hours you can set the service to transfer to you if they do not schedule and they email you when your offline so you can call the person back. \n\nWe also have people register on our website but do not schedule a free trial, so those need to be called. \n\nOn the day of their trial a call to them to ensure they are still coming and reassure them and get them excited to come in that day. \n\nThere’s also options to call the day after their trial and see their thoughts, get them to join etc. \n\nWe use a CRM called Spark Membership. It does so much and we use such a little piece of it so there’s options to train on the system and then work on keeping it updated. \n\nSending out periodic emails to get people who didn’t sign up to now try. Maybe newsletters and team communication.  \n\nSo many options for the right person.', 'upwork': 'https://www.upwork.com/jobs/Opportunity_~022014352750353954048/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+https://www.ATTKissimmee.com
+http://51.21.203.243:3000/https://www.ATTKissimmee.com
+{
+    "emails": [
+        "train@attkissimmee.com",
+        "Samantha@attkissimmee.com"
+    ],
+    "phone_numbers": [
+        "407-279-7069"
+    ],
+    "social_links": {
+        "instagram": [
+            "https://www.instagram.com/attblackboxx/?hl=en"
+        ],
+        "linkedin": [],
+        "facebook": [
+            "https://www.facebook.com/attblackboxx/"
+        ],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {
+        "meta": "American Top Team Black Boxx in Kissimmee, FL",
+        "title_tag": "Martial Arts School Near Me in Kissimmee | American Top Team Black Boxx"
+    },
+    "common_name_part": "Kissimmee",
+    "domain_parts": [
+        "ATTKissimmee",
+        "com"
+    ],
+    "matching_logs": [
+        {
+            "word": "Me",
+            "status": "matched",
+            "index": 4,
+            "domain_part": "ATTKissimmee"
+        },
+        {
+            "word": "Kissimmee",
+            "status": "matched",
+            "index": 6,
+            "domain_part": "ATTKissimmee"
+        }
+    ]
+}
+Extracted emails: ['train@attkissimmee.com', 'Samantha@attkissimmee.com']
+
+All extracted emails: {'train@attkissimmee.com', 'Samantha@attkissimmee.com'}
+
+
+
+groq
+
+
+
+ollama
+Email sent to: train@attkissimmee.com
+Email sent to: Samantha@attkissimmee.com
+Deleted processed row with id: 2160
+[{'id': 2161, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'I need somebody to do SEO for an affiliate comparison GOLD IRA website that is designed to convert visitors into clicks - there will be a bonus of $100 of each qualified Gold IRA lead that has been generated from your efforts, that the buyer can reach and they  also need to have sufficient financial backing. Plus the monthly fee.\n\nhttps://goldiraguide.org/\nhttps://www.goldiracompanies.us.com/\nAre good examples.\n\nIn your application, please state if you have done similar affiliate marketing SEO work previously. And run an analysis of both above sites to determine what they did right and what we can do even better. Draw out an approximate timeframe and milestones for results, such as https://goldiraguide.org/\n\nAlso in bullet points outline your strategy to excel in such a competitive vertical (with technical terms)', 'upwork': 'https://www.upwork.com/jobs/SEO-for-GOLD-IRA-AFFILIATE-Marketing-Comparison-Site_~022014351862220140701/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+https://goldiraguide.org/
+http://51.21.203.243:3000/https://goldiraguide.org/
+{
+    "emails": [],
+    "phone_numbers": [
+        "(626) 605-3152",
+        "(888) 491-7836",
+        "(877) 707-4707",
+        "(800) 355-2116",
+        "(844) 615-4484",
+        "(800) 341-8584",
+        "(844) 355-2116"
+    ],
+    "social_links": {
+        "instagram": [],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [
+        "https://goldiraguide.org/about-us/",
+        "https://goldiraguide.org/rollover/"
+    ],
+    "sources": {
+        "meta": "Gold IRA Guide",
+        "title_tag": "Welcome to Gold IRA Guide",
+        "img": "Colonial Metals Group logo"
+    },
+    "common_name_part": "Gold IRA Guide",
+    "domain_parts": [
+        "goldiraguide",
+        "org"
+    ],
+    "matching_logs": [
+        {
+            "word": "Gold",
+            "status": "matched",
+            "index": 2,
+            "domain_part": "goldiraguide"
+        },
+        {
+            "word": "IRA",
+            "status": "matched",
+            "index": 3,
+            "domain_part": "goldiraguide"
+        },
+        {
+            "word": "Guide",
+            "status": "matched",
+            "index": 4,
+            "domain_part": "goldiraguide"
+        },
+        {
+            "word": "Gold",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "goldiraguide"
+        },
+        {
+            "word": "IRA",
+            "status": "matched",
+            "index": 1,
+            "domain_part": "goldiraguide"
+        },
+        {
+            "word": "Guide",
+            "status": "matched",
+            "index": 2,
+            "domain_part": "goldiraguide"
+        }
+    ]
+}
+Extracted emails: []
+http://51.21.203.243:3000/https://goldiraguide.org/about-us/
+Extracted emails: []
+http://51.21.203.243:3000/https://goldiraguide.org/rollover/
+Extracted emails: []
+
+All extracted emails: set()
+
+
+
+
+ollama
+
+
+
+ollama
+Deleted processed row with id: 2161
+[{'id': 2162, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We are looking to hire 10 skilled Graphic Designers on a monthly fixed basis.\n\n💰 Payment: USD 100 per month\n📅 Duration: 12 months (long-term opportunity)\n\nRequirements:\n\nStrong graphic design skills\n\nGood quality output and fast turnaround time\n\nAbility to follow instructions and match expected design standards\n\nWork Details:\n\nRegular design tasks every month\n\nExpected work samples will be shared for reference\n\nIf you can match the quality and turnaround, you are welcome to apply\n\nSelection Process:\n\nShortlisted candidates will be given a test task to check skills\n\nLong-term work guaranteed if performance meets expectations\n\nIf you are confident in your skills and ready for a long-term collaboration, apply now.\n\nWork quality we want-\n\nhttps://drive.google.com/drive/folders/17mdf9kK-8iA5awfStcE3iafXb-Oc9PT7', 'upwork': 'https://www.upwork.com/jobs/Hiring-Graphic-Designers-Monthly-Fixed-Contract-Long-Term_~022014351793696126208/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:  
+The only URL provided is a Google Drive link (https://drive.google.com/drive/folders/17mdf9kK-8iA5awfStcE3iafXb-Oc9PT7des), which contains work samples for reference. This is not the employer's own website or portfolio site where contact information would typically be found. It's a file-sharing link used specifically to showcase design examples for applicants to match, not a site with contact details. No company website, portfolio URL, or other direct contact point is mentioned in the text.
+Deleted processed row with id: 2162
+[{'id': 2163, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We’re looking for a conversion-focused B2B SaaS copywriter to turn our landing page into a demo-booking machine.\n\nOur platform is already built and selling, but we know our messaging can be sharper. We’ve tested multiple approaches to convert visitors into booked demos, but results haven’t been strong enough. We’re now looking for someone who can craft engaging, benefit-led, high-converting copy that makes our value immediately clear and drives action.\n\nWe’re a data analytics platform designed to simplify how businesses use data. Many alternatives are overly complex, coding-heavy, expensive to run/maintain, and often require multiple tools to get the job done. Our platform removes that friction with a streamlined, user-friendly solution.\n\nWe believe the current design/layout is workable, but we’re open to your recommendations if tweaks to structure, flow, or positioning will improve conversions.\n\nWe can provide our company brochure and previous landing page versions. If you’d like a quick call to understand the product and audience, we’re happy to arrange one.\ncurent landing page --- https://ivp.ai/landing-2\n\nWhat we’re looking for:\n\nProven B2B SaaS landing page copy experience\n\nStrong conversion writing (demo/lead gen)\n\nAbility to simplify complex products into compelling messaging\nBonus: analytics/data/technical SaaS experience\n\nPlease include relevant landing page examples and results (if available).', 'upwork': 'https://www.upwork.com/jobs/B2B-Saas-copywriter_~022014351509167572776/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+https://ivp.ai/landing-2
+http://51.21.203.243:3000/https://ivp.ai/landing-2
+{
+    "emails": [],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [
+            "https://www.instagram.com/ivp.ai/"
+        ],
+        "linkedin": [
+            "https://www.linkedin.com/company/86613656/"
+        ],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {
+        "meta": "IVP.ai - IVP Data & AI Platform",
+        "title_tag": "IVP AI | IVP Data Analytics Platform - No-Code Business Intelligence",
+        "json_ld": "IVP.ai",
+        "img": "IVP AI - IVP Data Analytics Platform Logo"
+    },
+    "common_name_part": "IVP",
+    "domain_parts": [
+        "ivp",
+        "ai"
+    ],
+    "matching_logs": [
+        {
+            "word": "IVP",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "ivp"
+        },
+        {
+            "word": "IVP",
+            "status": "matched",
+            "index": 3,
+            "domain_part": "ivp"
+        },
+        {
+            "word": "IVP",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "ivp"
+        },
+        {
+            "word": "IVP",
+            "status": "matched",
+            "index": 3,
+            "domain_part": "ivp"
+        },
+        {
+            "word": "IVP",
+            "status": "matched",
+            "index": 2,
+            "domain_part": "ivp"
+        },
+        {
+            "word": "AI",
+            "status": "matched",
+            "index": 1,
+            "domain_part": "ai"
+        },
+        {
+            "word": "AI",
+            "status": "matched",
+            "index": 1,
+            "domain_part": "ai"
+        },
+        {
+            "word": "AI",
+            "status": "matched",
+            "index": 5,
+            "domain_part": "ai"
+        }
+    ]
+}
+Extracted emails: []
+
+All extracted emails: set()
+
+
+gemini
+
+
+
+ollama
+Deleted processed row with id: 2163
+[{'id': 2164, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Job Description\n\nWe are looking for a senior expert in n8n and AI-driven automations to build a commercial automation system for a company in the professional beauty sector.\n\nThis is not a basic automation role. We need someone experienced in advanced n8n workflows, API integrations, and AI-assisted logic applied to real business operations.\n\n⸻\n\nProject Scope\n\nThe system will:\n\t•\tDetect cross-sell opportunities from customer purchase data\n\t•\tReactivate inactive clients via personalized WhatsApp messages\n\t•\tGenerate dynamic AI-assisted content with conditional logic\n\t•\tAutomate commercial workflows connected to revenue\n\n⸻\n\nKey Integrations\n\t•\tn8n (advanced logic, Function/Code nodes, HTTP requests)\n\t•\tOdoo API (CRM & invoicing)\n\t•\tWhatsApp Business API (360dialog, Twilio, or similar)\n\t•\tExternal data sources (Sheets, CSVs, APIs)\n\t•\tGenerative AI (OpenAI / GPT-based tools)\n\n⸻\n\nRequirements (Mandatory)\n\t•\tProven advanced experience with n8n\n\t•\tStrong background in commercial/marketing automations\n\t•\tSolid experience with REST APIs\n\t•\tExperience integrating AI into production workflows\n\nNot suitable for junior or basic no-code profiles.\n\n⸻\n\nTimeline\n\t•\tInitial phase: 4–6 weeks\n\t•\tMilestone-based delivery\n\t•\tPotential long-term collaboration\n\n⸻\n\nHow to Apply\n\nInclude:\n\t1.\tExamples of advanced n8n workflows\n\t2.\tExperience with Odoo or WhatsApp API\n\t3.\tOne case where an AI automation delivered real results\n\nGeneric proposals will be ignored.', 'upwork': 'https://www.upwork.com/jobs/Senior-n8n-and-Automation-Expert_~022014304946782417053/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+The job description does not contain any website URLs. The text mentions specific technologies (n8n, Odoo, WhatsApp Business API, OpenAI) but does not provide links to the employer's website, portfolio, or any specific site where contact information could be found. The "How to Apply" section instructs candidates to include their experience and examples in their proposal but does not direct them to a website or application portal. Therefore, no valid URL leading to the employer's contact information exists in the provided text.
+Deleted processed row with id: 2164
+[{'id': 2165, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We’re now looking for a detail-oriented and proactive Onboarding Specialist/Listing Manager to help us onboard new campsites and ensure their profiles are perfectly set up on our platform - www.campcation.com\n\nYour responsibilities:\n- Create and publish new campsite listings based on provided information (text, photos, amenities, prices, opening dates, etc.)\n- Make sure all content is accurate, clear, and attractive for travelers.\n- Review and update existing listings to improve quality and conversion.\n- Coordinate with our team if information is missing or unclear.\n- Ensure each campsite is fully “go-live ready” before launch.\n\nWhat we’re looking for:\n- Strong attention to detail – you notice typos, missing photos, or inconsistent pricing.\n- Good communication skills in English.\n- Self-driven and reliable – you can handle multiple onboardings at once and keep deadlines.', 'upwork': 'https://www.upwork.com/jobs/Onboarding-specialist-with-attention-details_~022014350179731264337/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+https://www.campcation.com
+http://51.21.203.243:3000/https://www.campcation.com
+{
+    "emails": [],
+    "phone_numbers": [
+        "22 23 24",
+        "25 26 27",
+        "10 11 12",
+        "16 17 18",
+        "29 30 31",
+        "19 20 21",
+        "13 14 15",
+        "28 29 30"
+    ],
+    "social_links": {
+        "instagram": [],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {
+        "title_tag": "Campcation - Book Camping, Glamping & Stopover | Campcation",
+        "img": "logo"
+    },
+    "common_name_part": "Campcation",
+    "domain_parts": [
+        "campcation",
+        "com"
+    ],
+    "matching_logs": [
+        {
+            "word": "Campcation",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "campcation"
+        },
+        {
+            "word": "Campcation",
+            "status": "matched",
+            "index": 8,
+            "domain_part": "campcation"
+        }
+    ]
+}
+Extracted emails: []
+
+All extracted emails: set()
+
+
+
+
+ollama
+
+
+
+ollama
+Deleted processed row with id: 2165
+[{'id': 2166, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We are seeking a skilled CAD designer to create a detailed technical drawing for the remake of a vintage light fixture. The ideal candidate should have experience in designing lighting fixtures and a strong understanding of CAD software. This project involves collaborating closely with our team to ensure the new design retains the original aesthetics while incorporating modern standards. If you have a passion for vintage designs and can deliver high-quality CAD files, we would love to hear from you! see link for image of sconce  .  https://www.danke-galerie.com/en/produit/large-pair-of-perzel-art-deco-bronze-sconces-from-the-30s-g427/     .', 'upwork': 'https://www.upwork.com/jobs/CAD-Designer-Needed-for-Vintage-Light-Fixture-Remake_~022014348149697103553/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+The only URL in the text, 'https://www.danke-galerie.com/en/produit/large-pair-of-perzel-art-deco-bronze-sconces-from-the-30s-g427/', is a link to a product page for a pair of vintage sconces on a gallery's website. This URL is intended as a reference or inspiration source for the design, as mentioned in the text ("see link for image of sconce"). It does not belong to the employer and is not a portfolio, personal website, or a site that would contain the employer's contact information. No other URLs are present that could lead to the employer's contact details.
+Deleted processed row with id: 2166
+[{'id': 2167, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Hey there,\n\nWe\'re started a YouTube channel a couple of months ago and we\'re looking for a talented and passionate video editor to become a core part of our team for the long haul.\n\nTake a look at our yt channel : https://www.youtube.com/@DJ-Narratives or search DJ Narratives\n \nWhat You\'ll Be Doing:\n- Editing 2 to 4 long-form videos per month (15-25 minutes each).\n- Taking a script and a voiceover track and bringing it to life.\n- Sourcing a ton of b-roll (archival footage, interviews, stock clips, etc.) that fits our moody, cinematic aesthetic.\n- Mastering the art of emotional pacing. You know when to let a shot breathe and when to make a cut that hits hard. Say "daft punk" when you submit your proposal, please.\n- Seamlessly blending black & white "cinematic" sections with standard color documentary footage.\n\nThis is the right job for you if:\n- You\'re more of a storyteller than just a video "assembler."\n- You understand that pacing and music can make or break a video.\n- You\'re not afraid to dig for hours to find that one perfect, obscure clip of a DJ playing in a basement in 1998.\n- You love channels high-effort documentary creators.\n- You have some interest in electronic music/DJ culture (a big plus, but not a deal-breaker if your skills are amazing).\n\nTo Apply, please tell me:\n1.. Our next video is "How Social Media is Sexualizing the DJ Industry" - already got the VO - Can you do it? Do you have the fire? This would be a bit more controversial than what we have on the channel. \n2. How long it would take you? The turn over? \n3. Let me know your estimated rate per 15-20 minute video. This one from above is 20min. We\'re looking to build a long-term partnership, so we\'re happy to discuss a fixed price per video.\n\nWe\'re really excited to build something special here. If you\'re looking to create content that has depth and makes an impact, we\'d love to hear from you.\n\nCheers!\nOvi', 'upwork': 'https://www.upwork.com/jobs/Brilliant-Editor-Needed-Youtube-Documentaries_~022014302685605725195/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation: The provided text contains one URL: https://www.youtube.com/@DJ-Narratives. While this is the employer's YouTube channel, YouTube channels are not a typical source for direct employer contact information like an email address or a contact form. Contact information is usually found on a personal website, a company's 'Contact Us' page, or a professional portfolio site. The YouTube channel is a platform for hosting content, not for listing business contact details for hiring purposes. Therefore, no valid URL leading to contact information was identified. The instruction was to return a URL only if contact info might be available on that site, and a YouTube channel does not meet that criterion.
+Deleted processed row with id: 2167
+[{'id': 2168, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': "***Budget is an initial starting point, we'll pay more for quality!***\n\nHelp us create a Show Reel for our Agency!\n\nWe're a Creative Tech & Marketing agency specializing in creating Websites, Products and Branding.\n\nWe need a 30 second, loopable video that shows off some of our best work. The video should be animated, engaging, and since it will be the first thing a user sees on our website, we need it to leave a positive impression.\n\nWe can supply the visuals, and any brand materials (if needed), we just need you to pull it all together.\n\nThe expected deliverable is a high quality (HD? 4K?) video file that we can place on our website or chop up and use in other marketing.\n\nStill not sure what we mean? Here's some examples:\n\nhttps://www.youtube.com/watch?v=LVIm7Ol-jYQ\nhttps://www.youtube.com/watch?v=2scPZ1U-KLk\nhttps://www.youtube.com/watch?v=y47oxk0tad4\n\nWe're totally open to your creative direction. If you have a bunch of templates, we're cool with that. We're all about the final result.\n\nFeel free to ask any questions!", 'upwork': 'https://www.upwork.com/jobs/Create-Show-Reel-for-Agency_~022014347890356859037/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+The text is a job posting seeking a freelancer to create a show reel. The URLs provided (https://www.youtube.com/watch?v=LVIm7Ol-jYQ, etc.) are given as examples of the style of video the employer wants. These are not links to the employer's own website, portfolio, or contact page; they are links to public YouTube videos used for reference and inspiration. The text does not contain any other URLs. Therefore, no URL leading to the employer's contact information or company website is present.
+Deleted processed row with id: 2168
+[{'id': 2169, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'I am looking for a composer to compose the main theme to my Horror RPG. For this song I want to have three versions of it. One for the title screen, another as a battle and finally one used in the credits of the game\n\nDeadline: End of February 2026 for the Main Theme but the other two songs you can work on more at your own pace.\nBudget: I can afford around $400 or less. We can negiotate a price.\n\nTone of the Song\nMain Version: I want it to sound haunting yet sad.\n\nBattle Version: I want this song to sound like it tragic yet invoking a hint of anger.\n\nCredits Version: I want it sound bitter-sweet\n\nReferences\nMain Theme: Something similar sounding like North from Ender Lilies: Quietus of the Night.\nLink: https://www.youtube.com/watch?v=uiTMTGqcGmc&list=RDuiTMTGqcGmc&t=1s\n\nBattle Theme: Something that sounds tonal like Gywn, Lord of Cinders but with the addition of violins.\nLink: https://www.youtube.com/watch?v=3bqLGebDRIY&t=7s', 'upwork': 'https://www.upwork.com/jobs/Looking-for-Music-Composer-Make-the-Main-Theme-for-Horror-RPG_~022014346448755557387/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation: The text contains two YouTube URLs (https://www.youtube.com/watch?v=uiTMTGqcGmc&list=RDuiTMTGqcGmc&t=1s and https://www.youtube.com/watch?v=3bqLGebDRIY&t=7s), but these are provided as references or inspiration sources for the desired musical style. They are links to existing songs on a public video platform, not to a website belonging to the employer or a project site where contact information might be found. No other URLs are present in the text. Therefore, no valid URL leading to the employer's contact information, portfolio, or personal website can be identified.
+Deleted processed row with id: 2169
+[{'id': 2170, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We are looking for a creative animator who can transform voiceover scripts into engaging and emotional videos using stick-figure style visuals. The ideal candidate will be able to interpret scripts effectively, creating animations that resonate with the audience...\n\nBudget is fixed @ $13\n\nVideo duration: 10-12 minutes\n\nProject is long term\n\nPS: Below are links to the style we want\n\nhttps://drive.google.com/file/d/1RXkP7SS9WeVuB_mpSe_ROGKt6l3CdlGW/view\n\nhttps://drive.google.com/file/d/1VINfCf-ZZM9lKlANJWVx1W7Pln3tSkCs/view\n\nhttps://drive.google.com/file/d/1vd5IIMnj5C8pOO5d0AvC8ZumyAewZy9R/view', 'upwork': 'https://www.upwork.com/jobs/Stick-figure-animation_~022014345138285260957/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation: The text contains three URLs, but they are all links to Google Drive files (specifically, view links for files). These URLs are provided as references or examples of the desired animation style. They are not the employer's own website, portfolio, personal website, or a project site where contact information would typically be found. They are links to individual files stored on a cloud service, which is commonly used for sharing visual references, not for hosting contact details. Therefore, none of the URLs are suitable for finding the employer's contact information.
+Deleted processed row with id: 2170
+[{'id': 2171, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'I’m looking for an experienced audio engineer / voiceover processor who can process my recorded voiceovers and give them a lo-fi, retro, crunchy—but still clean and punchy sound.\n\nThe goal is a voice similar in vibe to the “Low Poly Shorts” YouTube channel:\n👉 https://www.youtube.com/@LowPolyShorts\n\nThis is for YouTube Shorts paired with low-poly / PSX-style 3D animations\n\nWhat I Need\nProcessing of already recorded voiceovers (no recording needed)\nEQ, compression, saturation, distortion, etc.\nConsistent sound across multiple shorts\nFinal audio optimized for YouTube Shorts / mobile listeners\nAlmost every video will use the same processing chain, with only minor tweaks if needed.\n\nProject details:\nLength per voiceover: 30–35 seconds\nRate: $5 per video (fixed) - As of right now because this is startup project.\nQuantity: 4 videos per month for now\n\nOngoing collaboration if it’s a good fit', 'upwork': 'https://www.upwork.com/jobs/Voiceover-Processing-for-Youtube-Shorts-Mobile-speakers-focus_~022014344627112199692/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+The text contains one URL: https://www.youtube.com/@LowPolyShorts. This URL points to a YouTube channel that is provided as an example or reference for the desired style. The text clearly states this is the "goal" and an example "similar in vibe." This is not the employer's own website, portfolio, or a site containing their contact information. It is a source of inspiration. Therefore, no valid URL leading to the employer's contact information is present in the provided text. The job poster's own domain or contact details are not included.
+Deleted processed row with id: 2171
+[{'id': 2172, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Seeking an experienced UA manager to optimize user acquisition for our web2app web flow on iOS via Meta platforms. The role involves managing campaigns, analyzing performance, and scaling successful strategies. Ideal candidates will have a strong background in mobile app marketing and a proven track record of achieving high ROI.\n\nMore details https://rune-sailfish-179.notion.site/Position-UA-for-web2app-via-Meta-2ef1f256ce6380e6b99ac28b95d83cd6?source=copy_link\n\nI would prefer candidates speaking Russian or Ukrainian.', 'upwork': 'https://www.upwork.com/jobs/Manager-for-Web2App-web-flow-via-Meta-platforms_~022014344319114171217/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+https://rune-sailfish-179.notion.site/Position-UA-for-web2app-via-Meta-2ef1f256ce6380e6b99ac28b95d83cd6?source=copy_link
+http://51.21.203.243:3000/https://rune-sailfish-179.notion.site/Position-UA-for-web2app-via-Meta-2ef1f256ce6380e6b99ac28b95d83cd6?source=copy_link
+{
+    "emails": [],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {
+        "meta": "rune-sailfish-179 on Notion",
+        "title_tag": "Position: UA for web2app via Meta"
+    },
+    "common_name_part": "rune-sailfish-179",
+    "domain_parts": [
+        "rune-sailfish-179",
+        "notion",
+        "site"
+    ],
+    "matching_logs": [
+        {
+            "word": "rune-sailfish-179",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "rune-sailfish-179"
+        },
+        {
+            "word": "on",
+            "status": "matched",
+            "index": 1,
+            "domain_part": "notion"
+        },
+        {
+            "word": "Notion",
+            "status": "matched",
+            "index": 2,
+            "domain_part": "notion"
+        }
+    ]
+}
+Extracted emails: []
+
+All extracted emails: set()
+
+
+
+
+ollama
+
+
+
+ollama
+Deleted processed row with id: 2172
+[{'id': 2173, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'I want to have a video made of a piece of furniture that rotates and the interior adapts to it. This is based on an example created with an AI tool (se example0.\n\nI want the same sort of animation usinmg the Ai tool like this example but with attached table:\nhttps://www.linkedin.com/posts/raphael-guilhem-044406253_youre-20-minutes-away-from-making-this-kind-ugcPost-7389448003272540160-1dgM/', 'upwork': 'https://www.upwork.com/jobs/Product-animation_~022014342425994396683/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation: The text contains one URL: https://www.linkedin.com/posts/raphael-guilhem-044406253_youre-20-minutes-away-from-making-this-kind-ugcPost-7389448003272540160-1dgM/des
+This is a LinkedIn post URL, which is a reference or inspiration source for the type of animation desired. It does not belong to the employer/poster of this job request; it is someone else's social media content. There is no other URL provided that could be the employer's own website, portfolio, or a site containing their contact information. Therefore, no valid employer contact URL can be identified.
+Deleted processed row with id: 2173
+[{'id': 2174, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Dear Readers,\n\nI’m looking for a Social Media Strategist & Content Creator for my e-commerce brand FreshGuard, active in the Dutch and German markets.\n\nWebsite: https://fresh-guard.nl\nInstagram: https://www.instagram.com/freshguard_eu/\n\nThis is a long-term collaboration. I’m not looking for someone who only posts content, but for someone who understands social media strategy, account growth, and real engagement.\n\nThe role includes:\n\n- Social media strategy & clear action plans\n- Reporting & engagement-focused analytics\n- Community management & engagement\n- Understanding how content builds trust, growth, and sales\n- Content creation: posting self-made statics, reels and stories made with canva or other tools. (can use our content library)\n- Minimum of 15 posts per month excluding stories.\n\nCould you briefly share:\n\n- How you would approach growing engagement for our brand?\n\n- Whether you are familiar with filming content yourself ( not mandatory, big plus though).\n\nThen I can see if there’s a good fit for an introduction call.\n\nThanks,\nTeam FreshGuard', 'upwork': 'https://www.upwork.com/jobs/Social-Media-Strategist-Content-Creator-for-growing-European-brand_~022014335817275093149/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+https://fresh-guard.nl
+http://51.21.203.243:3000/https://fresh-guard.nl
+{
+    "emails": [
+        "info@fresh-guard.de"
+    ],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {
+        "meta": "FreshGuard NL",
+        "title_tag": "FreshGuard NL"
+    },
+    "common_name_part": "NL",
+    "domain_parts": [
+        "fresh-guard",
+        "nl"
+    ],
+    "matching_logs": [
+        {
+            "word": "NL",
+            "status": "matched",
+            "index": 1,
+            "domain_part": "nl"
+        }
+    ]
+}
+Extracted emails: ['info@fresh-guard.de']
+
+All extracted emails: {'info@fresh-guard.de'}
+
+
+
+
+ollama
+
+
+
+ollama
+Email sent to: info@fresh-guard.de
+Deleted processed row with id: 2174
+[{'id': 2175, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'The task involves proofreading and editing the French localization of the iOS mobile app Yoomla - Recipe Keeper, which allows users to save (import) recipes from various sources such as web pages, TikTok, Instagram, photos, and more.\n\nPlease check the app : \n\nhttps://apps.apple.com/us/app/id6748003406\n\n\nKey Features of the App:\n* Import from anywhere: Social media, web, photos.\n* Hands-free mode: Step-by-step instructions displayed on the screen.\n* Grocery list: Automatically generates a list of ingredients needed to cook a meal.\n* Tags for search: Simplifies recipe search by cooking time, ingredients, diet, type of meal, etc.\n* Cookbooks: Users can create collections of recipes (e.g., Burgers, Salads, etc.).\nTo better understand the app and its context, please download and install the app using the provided link (trial version is free).\n\nhttps://apps.apple.com/us/app/id6748003406\n\n\nTask Description:\nThe app has already been localized into French. However, there are inconsistencies in the translation of terms and forms of address (e.g., "tu" vs. "vous"). Your task is to perform a high-quality review of all linguistic aspects, including grammar, punctuation, and stylistic tone, and polish the text where necessary.\n\nKey Requirements:\n\nConsistency: Ensure consistent translation of key terms, feature names, and buttons. If the same term is translated differently in multiple places, unify the translation for coherence.\nAccuracy: Review all existing translations for grammatical errors, natural flow, and clarity.\nFormatting: Maintain the original formatting, including the placement of tags (accorf=ding to the original English texts).\nForm of Address: Ensure all user-facing text uses the formal "vous" form of address.\nCharacter Limits: Edited French texts must not exceed the character limits of the current translations. Shorter variants are acceptable, but longer ones are not, as they may not fit the app\'s screen design. \n\n\nVisual references : https://drive.google.com/drive/folders/1DBn-fNoyK6NLPwkJJJzARU59Pi7rbXFd?usp=drive_link\n\n\n\n\nImportant Note:\nOnly make changes if there are errors, ambiguities, or inconsistencies. If the current French texts are correct and understandable, no changes are needed.\n\nReference Document:\nThe attached file contains: appr.5 500 words, but lots of duplicates.\n\nColumn B: Original English texts.\nColumn C: Current French translations.\nColumn D: Space for corrected French translations (if adjustments are required).\nColumn E ("Proofreader\'s comments"): Use this column to:\nAdd comments explaining your edits.\nHighlight modified texts.\nProvide feedback on the overall quality of the current translations.\n\n\nCompensation:\nThe estimated payment for this task is $250.\nIf the task involves substantial corrections requiring additional time, we are open to discussing a bonus for the extra work.\n\nDeadline:\nThe task expected to be completed by January 28th.\n\nWe look forward to your high-quality review and edits! If you have any questions or need further clarification, feel free to reach out.', 'upwork': 'https://www.upwork.com/jobs/French-Localization-Proofreader-for-Recipe-Keeper-App-iPhone-Holders-Only_~022014333792629376524/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+No valid URL leading to the employer's contact information or their own website was found.
+
+-   **https://apps.apple.com/us/app/id6748003406**: This is a link to the app on the official Apple App Store. It is a public storefront for downloading the application and does not contain contact information for the employer.
+-   **https://drive.google.com/drive/folders/1DBn-fNoyK6NLPwkJJJzARU59Pi7rbXFd**: This is a link to a Google Drive folder, which is commonly used for sharing reference materials or documents. It is considered a reference/source material link and not the employer's own website where contact information would be found.
+Deleted processed row with id: 2175
+[{'id': 2176, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Hey there!\nWe are a YouTube Automation company and we are looking for a talented,\nhard-working, and experienced Video Editor to join our team.\nIn terms of quality, we would like to take our cue from these channels:\nCHANNEL LINK 1: https://www.youtube.com/@ChubbyChefPro\nCHANNEL LINK 2: https://www.youtube.com/@secretseadiver\n CHANNEL LINK 3: https://www.youtube.com/@RustedEcho/videos\nWe are looking for a long-term collaboration.\nPlease do not apply if you do not have any experience.\nLooking forward to working with you!\nNadine', 'upwork': 'https://www.upwork.com/jobs/Experienced-Video-Editor-for-YouTube-Automation-Channel-the-underwater-world-and-hidden-treasures_~022014333298670388748/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation: The text contains YouTube channel links, which are references or inspiration sources for the type of content the employer wants. These are not the employer's own website or a portfolio/personal website containing contact information. The message itself does not contain any URL that directly leads to the employer's contact information, portfolio, or a website they own. The channels provided are examples of the desired style, not sources for applying or contacting the employer. Therefore, no valid URL meeting the criteria was found.
+Deleted processed row with id: 2176
+[{'id': 2177, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Looking for a data entry person to help organize publicly available video metadata into a Google Spreadsheet. The google spreadsheet has three columns: title, description, and tags. The task involves reviewing each video and accurately entering the relevant, publicly visible information into the spreadsheet.\n\nThis information is being collected only to keep records, organize content and improve the SEO. It is not intended to be republished, redistributed, resold or used in a way that could violate another platform’s rules. It is only for private use, such as analysis, planning and content management. In other words, we are saving this information for our own records and not to reuse or exploit it publicly.\n\nHere is the channel link:\nhttps://tinyurl.com/ycxekfad\n\nThe job needs to be done with accuracy and without any mistakes. So only apply if you can do this without any mistakes. When you apply for this job please also mention in the proposal that how much time you’ll need to do this job.\n\nAlso I can do $10 for this job.\nLet me know if you can work in this budget.', 'upwork': 'https://www.upwork.com/jobs/Looking-for-Data-Entry-Person_~022014332869033349969/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+The only URL in the text is `https://tinyurl.com/ycxekfad`, which is a shortened link. The use of a URL shortener (tinyurl.com) makes the destination unknown and potentially unreliable. It likely redirects to a YouTube channel or similar video platform, not a website containing the employer's contact information, portfolio, or personal website. The text does not contain any direct link to an employer's website, portfolio, or a website where contact information (like an 'About' or 'Contact' page) would be found. The budget and job posting style suggest this is a post on a freelance platform, and the employer's contact details would be handled through that platform's messaging system, not an external website.
+Deleted processed row with id: 2177
+[{'id': 2178, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Seeking a skilled individual to manage our podcast, post short videos weekly, and edit long-form podcasts. Proficiency in Descript is required, and fluency in English is essential for editing our English podcast.\n\nhttps://podcasts.apple.com/us/podcast/delta-healthtech-innovators/id1703827145', 'upwork': 'https://www.upwork.com/jobs/Podcast-Manager-with-Video-Editing-Skills_~022014332274593544314/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+groq
+https://podcasts.apple.com/us/podcast/delta-healthtech-innovators/id1703827145des
+http://51.21.203.243:3000/https://podcasts.apple.com/us/podcast/delta-healthtech-innovators/id1703827145des
+{
+    "emails": [],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {},
+    "common_name_part": "",
+    "domain_parts": [
+        "podcasts",
+        "apple",
+        "com"
+    ],
+    "matching_logs": []
+}
+Extracted emails: []
+
+All extracted emails: set()
+
+
+
+
+ollama
+
+
+
+ollama
+Deleted processed row with id: 2178
+[{'id': 2179, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'https://youtu.be/N7qQ7MSsvOA?si=vkGBUU_-ROTlDm9k\n\nWe are hiring a talented YouTube Script Writer for The Doctor Investor YouTube channel — a brand focused on Section 8 real estate investing, financial freedom, and the intersection of medicine and investing.\n\nOur channel educates and inspires healthcare professionals and everyday investors on how to build wealth through real estate, with a strong emphasis on Section 8 housing, smart investing strategies, and balancing medicine with business.\n\nReview our channel here before applying:\nhttps://youtu.be/N7qQ7MSsvOA?si=vkGBUU_-ROTlDm9k\n\nChannel link again for reference:\nhttps://youtu.be/N7qQ7MSsvOA?si=vkGBUU_-ROTlDm9k\n\nAbout the role:\nYou will write compelling, well-structured YouTube scripts centered on Section 8 real estate investing, personal finance, mindset, and the medical professional journey. Scripts should hook viewers immediately, deliver clear value, and be optimized for retention and watch time.\n\nResponsibilities:\n\t•\tWrite original YouTube scripts from outline to final draft\n\t•\tCraft strong hooks and high-retention openings\n\t•\tTurn complex real estate and financial concepts into clear, engaging content\n\t•\tIncorporate storytelling, examples, and call-to-actions\n\t•\tCollaborate on content ideas related to Section 8, investing, and medicine\n\t•\tRevise scripts based on feedback\n\nRequirements:\n\t•\tProven experience writing YouTube scripts (samples required)\n\t•\tStrong understanding of YouTube audience psychology and retention strategies\n\t•\tExcellent English writing and storytelling ability\n\t•\tInterest or experience in real estate, investing, finance, or healthcare content\n\t•\tReliable communication and deadline management\n\nWhat we offer:\n\t•\tLong-term opportunity with a growing brand\n\t•\tConsistent script work\n\t•\tClear expectations and creative input\n\t•\tOpportunity to help shape a unique niche: medicine + real estate investing\n\nTo apply, please include:\n\t1.\t1–3 samples of YouTube scripts or similar work\n\t2.\tA short description of your experience with educational or finance content\n\t3.\tConfirmation that you reviewed our channel:\nhttps://youtu.be/N7qQ7MSsvOA?si=vkGBUU_-ROTlDm9k\n\nWe are looking for someone who wants to grow with The Doctor Investor and become a long-term creative partner.', 'upwork': 'https://www.upwork.com/jobs/YouTube-Script-Writer-Needed-Long-Term_~022014330645746045777/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+The only URL provided in the text is a YouTube video link (https://youtu.be/N7qQ7MSsvOA?si=vkGBUU_-ROTlDm9k). This is a link to a piece of content on the channel, not to a website containing contact information (like an "About" page, "Contact" page, or the channel's associated website). While the YouTube channel itself ("The Doctor Investor") is the employer's platform, the provided URL is a specific video and does not lead to a page dedicated to contact details or an official company website. Contact information for applying is expected to be found through the YouTube channel's "About" tab or a linked external website, but no such link is provided in the text.
+Deleted processed row with id: 2179
+[{'id': 2180, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': "I am looking for someone who can assist with video editing that can blend seamlessly with my 360 images.\n1. Unwrap the video shot with fisheye\n2. Crop the video so it will only capture just the area with movements. Keep it as small as possible\n3. Match the overall brightness and colours with the 360 image given.\n\nHere's the sample test we did for reference:\nhttps://drive.google.com/drive/folders/1PB6i5VQqRcHq4Lz9rl_V9SrWsrkW1OgD?usp=sharing", 'upwork': 'https://www.upwork.com/jobs/Video-Editor-for-Fisheye-video_~022014330607436597032/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+This request can be broken down into three main technical video editing requirements:
+
+**1. Unwrap the video shot with fisheye**
+*   This is a de-warping process. You need video editing software that has a **lens correction** or **360 video editing** feature.
+*   **Software that can do this:**
+    *   **Adobe Premiere Pro:** Has a built-in "VR" section in the Effect Controls panel with a "Deform" setting to convert fisheye to equirectangular.
+    *   **DaVinci Resolve:** The Studio (paid) version has a dedicated "Lens Correction" panel that can handle fisheye footage.
+    *   **Mistika VR:** A professional-grade tool specifically for 360/VR content.
+
+**2. Crop the video to capture only the area with movement**
+*   This is a simple **masking and tracking** task.
+*   **Process:**
+    1.  After unwrapping the video, analyze the footage to identify the area where the movement occurs.
+    2.  Create a mask (e.g., a shape) around that area.
+    3.  Use motion tracking to make the mask follow the movement throughout the clip.
+    4.  Crop the entire video frame to the boundaries of this mask.
+
+**3. Match the overall brightness and colours with the 360 image**
+*   This is a **color grading** task.
+*   **Process:**
+    1.  Use the provided 360 image as a reference.
+    2.  Use the **color grading tools** (e.g., Lumetri Color in Premiere, Color Wheels in Resolve) to match the following between the video and the image:
+        *   **Exposure/Brightness**
+        *   **Contrast**
+        *   **White Balance** (Temperature/Tint)
+        *   **Saturation**
+        *   **Highlights, Midtones, and Shadows**
+
+**Important Considerations:**
+
+*   **Workflow Order:** It's crucial to perform these steps in the correct order: **Unwrap -> Crop/Track -> Color Grade**. Correcting the lens first provides a clean slate for the other steps.
+*   **Quality Loss:** Cropping the video to a small area will result in a significant loss of resolution. The final output quality will depend on the original resolution of your fisheye video.
+
+My Recommendation:
+Adobe Premiere Pro is likely the most accessible and capable tool for this entire workflow. It can handle all three requirements within a single application.
+
+I am available to discuss this project further and can provide a quote based on the length and complexity of your video footage. Please let me know if you have any specific questions.
+http://51.21.203.243:3000/This request can be broken down into three main technical video editing requirements:
+
+**1. Unwrap the video shot with fisheye**
+*   This is a de-warping process. You need video editing software that has a **lens correction** or **360 video editing** feature.
+*   **Software that can do this:**
+    *   **Adobe Premiere Pro:** Has a built-in "VR" section in the Effect Controls panel with a "Deform" setting to convert fisheye to equirectangular.
+    *   **DaVinci Resolve:** The Studio (paid) version has a dedicated "Lens Correction" panel that can handle fisheye footage.
+    *   **Mistika VR:** A professional-grade tool specifically for 360/VR content.
+
+**2. Crop the video to capture only the area with movement**
+*   This is a simple **masking and tracking** task.
+*   **Process:**
+    1.  After unwrapping the video, analyze the footage to identify the area where the movement occurs.
+    2.  Create a mask (e.g., a shape) around that area.
+    3.  Use motion tracking to make the mask follow the movement throughout the clip.
+    4.  Crop the entire video frame to the boundaries of this mask.
+
+**3. Match the overall brightness and colours with the 360 image**
+*   This is a **color grading** task.
+*   **Process:**
+    1.  Use the provided 360 image as a reference.
+    2.  Use the **color grading tools** (e.g., Lumetri Color in Premiere, Color Wheels in Resolve) to match the following between the video and the image:
+        *   **Exposure/Brightness**
+        *   **Contrast**
+        *   **White Balance** (Temperature/Tint)
+        *   **Saturation**
+        *   **Highlights, Midtones, and Shadows**
+
+**Important Considerations:**
+
+*   **Workflow Order:** It's crucial to perform these steps in the correct order: **Unwrap -> Crop/Track -> Color Grade**. Correcting the lens first provides a clean slate for the other steps.
+*   **Quality Loss:** Cropping the video to a small area will result in a significant loss of resolution. The final output quality will depend on the original resolution of your fisheye video.
+
+My Recommendation:
+Adobe Premiere Pro is likely the most accessible and capable tool for this entire workflow. It can handle all three requirements within a single application.
+
+I am available to discuss this project further and can provide a quote based on the length and complexity of your video footage. Please let me know if you have any specific questions.
+{
+    "emails": [],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {},
+    "common_name_part": "",
+    "domain_parts": [
+        ""
+    ],
+    "matching_logs": []
+}
+Extracted emails: []
+
+All extracted emails: set()
+
+
+
+
+ollama
+
+
+groq
+Deleted processed row with id: 2180
+[{'id': 2181, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'Salesflow is a fast-growing SaaS company revolutionising the way businesses approach outreach and lead generation.\nThe job market isn’t so easy and as a bootstrap business serving 1000s of businesses globally, we are introducing a new program we want to welcome to new sales reps that want to earn extra $$ by connecting businesses with a product they actually need. With 7 years in the market and explosive market potential. \nEarn Your Keep is an opportunity with Salesflow.io, designed for motivated individuals who excel at identifying opportunities and making effective introductions.\nYou earn commission for every lead you bring that signs up — simple, transparent, and performance-based.\n\nWhat you’ll do\nIdentify businesses that could benefit from sales automation software\nIntroduce them to Salesflow (your way: Cold Calling, LinkedIn, email, network, referrals, etc.)\nIf they sign up → you earn commission, up to 40%\n\nWhat’s in it for you\nCommission for every successful signup\nWork on your own time, at your own pace\nReal opportunity to grow with the company if you consistently perform well\nFull training, tools, and guidance so you can succeed\nOngoing earning potential — not a one-off reward\n\nWho this is for\nPeople who enjoy networking, outreach, or lead generation or want to break into Tech sales\nSelf-starters looking for extra income, not a traditional job\nThose curious about sales, SaaS, or growth opportunities\nAnyone who prefers results-based rewards over fixed hours\nFully remote, you can do this at comfort of your own home\n\nImportant to know\nThis is commission-based only\nIt is not an employment position\nWe do have an application form and a short interview to ensure fit and quality\nStrong performers may unlock long-term growth opportunities within Salesflow\n\nIf you’re proactive, communicative, and want to turn connections into income, this is for you!\nApply to Earn Your Keep, and let’s see if it’s a good match.\nYou can see what you could sell by seeing its value here: https://get.salesflow.io/iam/auth/trial-registration?\n\nDisclaimer:\nThis opportunity is offered under Salesflow’s affiliate program. It does not constitute an offer of employment, a job vacancy, or an employer - employee relationship. Compensation is strictly commission-based and paid only for successful customer signups. No hourly wages, fixed salary, or guaranteed income is provided. Participation is subject to approval via application and interview.', 'upwork': 'https://www.upwork.com/jobs/Earn-Your-Keep-Tech-Sales-Opportunity-with-Salesflow_~022014284920320754699/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+https://salesflow.io
+http://51.21.203.243:3000/https://salesflow.io
+{
+    "emails": [],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [
+            "https://www.instagram.com/salesflowio/"
+        ],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [
+            "https://twitter.com/Salesflowx"
+        ],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [],
+    "sources": {
+        "title_tag": "Salesflow - Social & Email Outreach Software for Lead Generation"
+    },
+    "common_name_part": "Salesflow",
+    "domain_parts": [
+        "salesflow",
+        "io"
+    ],
+    "matching_logs": [
+        {
+            "word": "Salesflow",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "salesflow"
+        }
+    ]
+}
+Extracted emails: []
+
+All extracted emails: set()
+
+
+
+
+ollama
+
+
+
+ollama
+Deleted processed row with id: 2181
+[{'id': 2182, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'My name is Daniel Sanz and I’m a YouTube content creator focused on cycling. I’m currently looking for a video editor to help me with my YouTube videos.\n\nI already have a YouTube channel where I’ve been publishing content regularly, and during the past year I edited all my videos myself. https://www.youtube.com/@daniel__sanz\n\nIt is very important for me that you understand Spanish well, since all my videos are in Spanish. There is no problem if we communicate in English.\n\nIf you are interested, I’d be happy to talk more and see if we are a good fit to work together.', 'upwork': 'https://www.upwork.com/jobs/Youtube-Video-Editor_~022014328718090651329/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+Explanation: The only URL provided is the YouTube channel link (https://www.youtube.com/@daniel__sanz). This is a content channel, not a personal website or portfolio with contact information. It's a platform for hosting videos and is not typically used to publish direct contact details like an email address or contact form. The text does not contain any other URLs that could lead to the employer's own website or a contact information page. Therefore, no valid URL for contact information was found.
+Deleted processed row with id: 2182
+[{'id': 2183, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': "I am looking for a talented and creative individual to produce engaging 30-50 min Minecraft gameplay videos for my YouTube channel. The ideal candidate should have a passion for Minecraft. You will be responsible for recording, editing gameplay videos. Collaboration on ideas for content and themes will be encouraged. If you're enthusiastic about Minecraft and skilled in video production, please apply!\n\nApply. if you can make high quality gameplays like in this channel\nhttps://www.youtube.com/@babynojamie", 'upwork': 'https://www.upwork.com/jobs/Minecraft-Gameplay-Creator-for-YouTube-Channel_~022014327788704188097/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation: The text contains one URL: https://www.youtube.com/@babynojamiedes. However, this URL is explicitly given as an example of the *desired style* ("like in this channel"). It is a reference or inspiration source for the type of content the employer wants, not the employer's own website or a site containing their contact information. The job posting itself does not provide a website, portfolio, or application link other than the generic instruction "please apply!". Therefore, no valid URL leading to the employer's contact information is present.
+Deleted processed row with id: 2183
+[{'id': 2184, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We are looking for a Japanese photographer / videographer.\n\n⚠ This job is ONLY for Japanese creators.\nNative Japanese speaker is REQUIRED.\nApplications from non-Japanese applicants will be ignored.\n\nAbout us:\nWe are a Japan-based photography & videography team working mainly with Japanese clients.\nOur projects include weddings, family shoots, couple shoots, and lifestyle films.\nMany of our shoots take place overseas.\n\nWebsite:\nhttps://lumiere-photo-movie.com\n\nShooting locations:\n- Okinawa (Japan)\n- Australia\n- Hawaii\n- Guam\n\nWhat we are looking for:\n- Native Japanese speaker (Japanese nationality preferred)\n- Professional experience in photography and/or videography\n- Experience with overseas or travel-based shoots is a plus\n- Own professional camera equipment\n- Able to travel for shoots (or currently based in one of the locations above)\n- Strong sense of responsibility and punctuality\n- Smooth communication in Japanese\n\nProject details:\n- One-time project at first\n- Possibility of long-term collaboration\n- Shooting location will vary by project\n- Schedule and compensation will be discussed per project\n\nPlease include the following in your application:\n- Portfolio (website / Instagram / Vimeo etc.)\n- Your shooting experience (genres and years)\n- Current location / countries you can shoot in\n- Available schedule\n\nWe are looking forward to working with reliable Japanese creators\nwho are comfortable with both domestic and overseas shoots.', 'upwork': 'https://www.upwork.com/jobs/Photography_~022014327383018522305/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+https://lumiere-photo-movie.com
+http://51.21.203.243:3000/https://lumiere-photo-movie.com
+{
+    "emails": [
+        "lumiere.official26@gmail.com"
+    ],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [
+            "https://www.instagram.com/lumiere.official26/",
+            "https://www.instagram.com/lumiere.official26/"
+        ],
+        "linkedin": [],
+        "facebook": [],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [
+        "https://lumiere-photo-movie.com/about.html"
+    ],
+    "sources": {
+        "title_tag": "Lumiere | \u30eb\u30df\u30a8\u30fc\u30eb"
+    },
+    "common_name_part": "Lumiere",
+    "domain_parts": [
+        "lumiere-photo-movie",
+        "com"
+    ],
+    "matching_logs": [
+        {
+            "word": "Lumiere",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "lumiere-photo-movie"
+        }
+    ]
+}
+Extracted emails: ['lumiere.official26@gmail.com']
+http://51.21.203.243:3000/https://lumiere-photo-movie.com/about.html
+Extracted emails: ['lumiere.official26@gmail.com']
+
+All extracted emails: {'lumiere.official26@gmail.com'}
+
+
+
+
+ollama
+
+
+
+ollama
+Email sent to: lumiere.official26@gmail.com
+Deleted processed row with id: 2184
+[{'id': 2185, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': "Hi there! View attached vacancy for more details on the job. Estimated we would first like to start with 6-12 months with 2 to 3 days per month work. If you'd have any questions, don't hesitate to ask.\n_\n\nSenior Exact Online Bookkeeper for Belgian Scale-Up (B2B + Amazon/Bol/Webshop, EU/UK/US Sales)\nWe are looking for a highly experienced, detail-oriented bookkeeper with proven expertise in Exact Online and deep familiarity with Belgian accounting standards.\n\nPlease apply ONLY if you have verifiable Belgian (preferably Flemish) references and demonstrable experience managing accounting for multi-channel scale-ups.\n \nAbout Us — My Add On\nMy Add On (www.myaddon.be) is a Belgian scale-up that designs and markets innovative lifestyle and accessory products that make everyday life easier, smarter, or simply more fun. You’ll find our products:\n•\tOffline in B2B retail and distribution,\n•\tOnline via Amazon (EU/UK/US), Bol.com, and\n•\tThrough our own WooCommerce webshop.\nWe operate internationally, which means our accounting involves cross-border VAT, multi-currency transactions, and complex marketplace reconciliation.\nAs we continue to scale rapidly, we are looking for a senior bookkeeper who can bring structure, accuracy, and compliance to our financial operations.\n \n\nCollaboration with External Accountancy Office\n\nMy Add On works together with an external Belgian accountancy office that provides quarterly reviews and oversight of the bookkeeping. This office can also be consulted for ad hoc accounting or fiscal questions when needed.\n\nThe external accountant is responsible for:\n• Quarterly review and validation of the accounts\n• Filing of Belgian VAT returns\n• Filing of EU OSS (and where applicable IOSS) declarations\n\nYour Responsibilities\nAs Senior Bookkeeper, you remain responsible for:\n• Correct, complete, and timely bookkeeping in Exact Online\n• Accurate VAT setup and preparation (so filings can be submitted smoothly)\n• Clear documentation and reconciliation to enable efficient quarterly reviews\n• Acting as the primary operational accounting partner for the business\n\nThis setup ensures strong compliance while allowing the bookkeeper to maintain ownership of the day-to-day financial operations. \nRequired Experience (Non-Negotiable)\nTo avoid mismatches, please apply only if you meet ALL requirements:\n✔ Extensive, practical experience with Exact Online\nYou must have used Exact Online as your primary bookkeeping system for active Belgian clients.\n✔ Strong knowledge of Belgian accounting rules\nYou have hands-on experience with:\n•\tBelgian VAT & cross-border VAT (OSS/IOSS)\n•\tIntrastat reporting\n•\tBelgian chart of accounts\n•\tYear-end file preparation for Belgian accountants/fiduciaries\n✔ Multi-channel accounting experience\nYou have previously done full bookkeeping for companies selling via:\n•\tAmazon Seller Central\n•\tBol.com\n•\tShopify or similar e-commerce platforms\n•\tClassic B2B invoicing\n✔ Belgian / Flemish References\nYour proposal must include at least:\n•\tTwo Belgian (ideally Flemish) client references, and\n•\tA short summary of Exact Online work you performed for them.\n \nNice to Have\n•\tExperience with high-growth scale-ups\n•\tWorkflow automation knowledge in Exact Online\n•\tStrong analytical skills and proactive mindset\n \nTo Apply, Please Include\n1.\tA short summary of your Exact Online experience\n2.\tA list of Belgian clients you have worked for (required)\n3.\tConfirmation of experience with Amazon/Bol/webshop bookkeeping\n4.\tYour hourly rate and your average monthly availability\n \nApplications Without Belgian References or Exact Online Experience Will Not Be Considered\n \nA Small Note From Us \n\nAs a growing Belgian scale-up, we work in a dynamic and fast-moving environment. Things evolve quickly, and we value people who can bring structure, clarity, and consistency to support that growth.\n\nIf you enjoy working in an entrepreneurial setting, feel comfortable taking ownership, and like contributing to a brand that’s building solid foundations for the future, then this collaboration will be a strong fit.\n\nWe look forward to connecting with the right partner \uf04a", 'upwork': 'https://www.upwork.com/jobs/Senior-Exact-Online-Bookkeeper-for-Belgian-Scale-B2B-Amazon-Bol-Webshop-Sales_~022014323760349362298/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+https://www.myaddon.be
+http://51.21.203.243:3000/https://www.myaddon.be
+{
+    "emails": [
+        "privacy@fontawesome.com",
+        "privacy@vimeo.com",
+        "support@fb.com",
+        "privacy@klaviyo.com",
+        "dpo-google@google.com",
+        "info@myaddon.be",
+        "info@mailerlite.com"
+    ],
+    "phone_numbers": [],
+    "social_links": {
+        "instagram": [
+            "https://www.instagram.com/my.add.on"
+        ],
+        "linkedin": [
+            "https://www.linkedin.com/company/my-add-on"
+        ],
+        "facebook": [
+            "https://www.facebook.com/MyAddOn"
+        ],
+        "twitter": [],
+        "whatsapp": []
+    },
+    "whatsapp_links": [],
+    "relevant_links": [
+        "https://www.myaddon.be/contact"
+    ],
+    "sources": {
+        "meta": "My Add On \u2022 Accessorize your independence",
+        "title_tag": "Pimp je rollator, krukken of rolstoel! \u2022 My Add On"
+    },
+    "common_name_part": "My Add On",
+    "domain_parts": [
+        "myaddon",
+        "be"
+    ],
+    "matching_logs": [
+        {
+            "word": "My",
+            "status": "matched",
+            "index": 7,
+            "domain_part": "myaddon"
+        },
+        {
+            "word": "Add",
+            "status": "matched",
+            "index": 8,
+            "domain_part": "myaddon"
+        },
+        {
+            "word": "On",
+            "status": "matched",
+            "index": 9,
+            "domain_part": "myaddon"
+        },
+        {
+            "word": "My",
+            "status": "matched",
+            "index": 0,
+            "domain_part": "myaddon"
+        },
+        {
+            "word": "Add",
+            "status": "matched",
+            "index": 1,
+            "domain_part": "myaddon"
+        },
+        {
+            "word": "On",
+            "status": "matched",
+            "index": 2,
+            "domain_part": "myaddon"
+        }
+    ]
+}
+Extracted emails: ['privacy@fontawesome.com', 'privacy@vimeo.com', 'support@fb.com', 'privacy@klaviyo.com', 'dpo-google@google.com', 'info@myaddon.be', 'info@mailerlite.com']
+http://51.21.203.243:3000/https://www.myaddon.be/contact
+Extracted emails: ['privacy@fontawesome.com', 'privacy@vimeo.com', 'support@fb.com', 'privacy@klaviyo.com', 'dpo-google@google.com', 'info@myaddon.be', 'info@mailerlite.com']
+
+All extracted emails: {'privacy@fontawesome.com', 'privacy@vimeo.com', 'support@fb.com', 'privacy@klaviyo.com', 'dpo-google@google.com', 'info@myaddon.be', 'info@mailerlite.com'}
+
+
+
+
+ollama
+
+
+
+ollama
+Email sent to: privacy@fontawesome.com
+Email sent to: privacy@vimeo.com
+Email sent to: support@fb.com
+Deleted processed row with id: 2185
+[{'id': 2186, 'created_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'updated_at': datetime.datetime(2026, 1, 22, 15, 3, 1), 'descr': 'We are hiring an experienced Social Media Manager to handle content creation, scheduling, community engagement, and lead follow-up our healthcare and wellness businesses(4).\n\nPlatforms:\nInstagram | Facebook | TikTok | Threads | LinkedIn | Google My Business\n\n@lifesaversemergencyroom\nhttps://www.instagram.com/lifesaversemergencyroom\n www.lifesaverser.com\n\n@ersugarland\nhttps://www.instagram.com/ersugarland\nwww.ercaresugarland.com \n\n@houstonwellnessaesthetics\nhttps://www.instagram.com/houstonwellnessaesthetics\nwww.houstoninjurywellness.com \n\n@houstoninjurywellness\nhttps://www.instagram.com/houstoninjurywellness\nwww.houstonwellnessaesthetics.com\n\nResponsibilities:\n\n• Create and edit content using Canva or Adobe\n• Edit short-form videos and create reels\n• Post 3 reels/videos per business per week\n• Create daily static posts for each business\n• Use provided content + stock images for carousels and still posts\n• Schedule all content in Metricool\n• Submit all content for approval by Director of Marketing before posting\n• Manage community engagement and respond to messages/comments\n• Answer questions from ads and organic traffic\n• Invite leads to book consultations and follow up on inquiries\n\nRequirements:\n\n✔ Fluent English \n✔ Strong experience with Canva or Adobe\n✔ Skilled in video editing\n✔ Experience managing multiple business accounts\n✔ Comfortable with lead engagement and conversion\n✔ Prefer experience with medical, clinic, or med spa services\n\nCompensation:\n\n💵 $700/month - base \n\n🎯 Bonus per confirmed referral:\n• 15–30 referrals → $75\n• 31–60 referrals → $150\n• 61–100 referrals → $175\n• 101–150 referrals → $225\n\nTo Apply, Please Include:\n\n• Links to video samples/reels you have edited\n• Screenshots or links to social media posts you created', 'upwork': 'https://www.upwork.com/jobs/Social-Media-Manager-Community-Engagement-for-Healthcare_~022014323602427806731/?referrer_url_path=/nx/search/jobs/', 'type': 'des', 'exec': 'http://51.21.203.243:5678/workflow/i0Ye8j1VNCfhlfJ9/executions/57658'}]
+
+
+
+ollama
+null
+
+Explanation:
+The provided text contains several website URLs, but none are suitable for finding employer contact information. Here's a breakdown of each URL:
+
+*   **https://www.instagram.com/lifesaversemergencyroom**: This is a link to a social media profile (Instagram). These profiles are for public engagement and brand presence, not for official business contact information like a hiring manager's email or phone number.
+*   **www.lifesaverser.com**: This is a company website. However, it is presented as one of the brands/assets to be managed ("our healthcare and wellness businesses"), not as the website of the hiring entity (the employer/agency). Contact information on this site would be for the clinic ("Life Savers Emergency Room"), not for the person hiring a Social Media Manager.
+*   **https://www.instagram.com/ersugarland**: Social media profile, same reasons as above.
+*   **www.ercaresugarland.com**: Website for another branded clinic ("ER Care Sugar Land") to be managed. Not the employer's contact site.
+*   **https://www.instagram.com/houstonwellnessaesthetics**: Social media profile.
+*   **www.houstoninjurywellness.com**: Website for a clinic ("Houston Injury Wellness").
+*   **https://www.instagram.com/houstoninjurywellness**: Social media profile.
+*   **www.houstonwellnessaesthetics.com**: Website for a clinic ("Houston Wellness Aesthetics").
+
+The job post is likely from a marketing agency or a central management team that oversees these four distinct healthcare/wellness brands. The text instructs applicants to submit materials (video samples, screenshots) but does not provide a direct application URL, email, or a central company website for the employer itself. The URLs provided are the assets (the social media accounts and business websites) that the successful candidate will be managing, not the source of the job posting. Therefore, no URL leads to the employer's contact information.
+Deleted processed row with id: 2186
+[]
+breaking...

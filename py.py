@@ -19,7 +19,7 @@ from ollama import Client as OlClient
 import cohere as coclient
 import os
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
+SCOPES = ["https://mail.google.com/"]
 creds = Credentials.from_authorized_user_file("token.json", SCOPES)
 service = build("gmail", "v1", credentials=creds)
 
@@ -301,13 +301,13 @@ def main():
 
             tempmsg = Template(Path("promptmsg.jinja").read_text())
             promptmsg = tempmsg.render(desc= descr, type=jobtype, cnp = result["common_name_part"], dp = result["domain_parts"])
-            aimsg = llm(user = promptmsg)
-            # aimsg = SimpleNamespace(text="Hello Amica Early Learning, I saw your Upwork post...")
+            # aimsg = llm(user = promptmsg)
+            aimsg = "Hello Amica Early Learning, I saw your Upwork post..."
 
             temptitle = Template(Path("prompttitle.jinja").read_text())
             prompttitle = temptitle.render(desc=descr)
-            aititle=llm(user=prompttitle)
-            # aititle = SimpleNamespace(text="help with your Upwork post")
+            # aititle=llm(user=prompttitle)
+            aititle = "help with your Upwork post"
 
             if allemails:
                 ecount=0
@@ -318,11 +318,12 @@ def main():
                     msg = EmailMessage()
                     msg["To"] = email
                     msg["From"] = "me"
-                    msg["Subject"] = f"I will {aititle}"
+                    msg["Subject"] = f"I will {aititle}".replace("\n", " ").replace("\r", " ").strip()
                     msg.set_content(aimsg)
 
                     encoded_msg = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-                    service.users().messages().send(userId="me", body={"raw": encoded_msg}).execute()
+                    print("done")
+                    service.users().drafts().create(userId="me", body={'message':{"raw": encoded_msg}}).execute()
                     print(f"Email sent to: {email}")
 
         cursor.execute("DELETE FROM stack WHERE id = %s", (row["id"],))
@@ -334,6 +335,6 @@ try:
     main()
 except Exception as e:
     print (e)
-    cursor.execute("UPDATE stack SET exec = 'running' WHERE id = %s", (row["id"],))
+    # cursor.execute("UPDATE stack SET exec = 'running' WHERE id = %s", (row["id"],))
     print(cursor, "done", row["id"])
     conn.commit()
