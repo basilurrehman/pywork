@@ -1,3 +1,5 @@
+import time
+from loguru import logger
 from types import SimpleNamespace
 import requests
 from google import genai
@@ -46,7 +48,7 @@ debug=False
 if __name__ == "__main__":
     debug=True
 def main():
-    print(debug)
+    logger.info(debug)
     rowcount=-1
     while True:
         rowcount+=1
@@ -59,7 +61,7 @@ def main():
         conn.commit() 
         
         if not rows:
-            print("breaking...")
+            logger.info("breaking...")
             break
         global row
         if debug == False:
@@ -82,26 +84,26 @@ def main():
                 gemmsgs = [system,user]
 
             for provider,model in models:
-                print()
+                logger.info("")
                 try:
                     if provider == "groq":
                         groqurl = groq.chat.completions.create(model=model,messages = messages)
-                        print(provider)
+                        logger.info(provider)
                         return groqurl.choices[0].message.content
 
                     if provider == "ollama":
                         olurl = ollama.chat(model= model, messages = messages)
-                        print(provider)
+                        logger.info(provider)
                         return olurl.message.content
 
                     if provider == "cohere":
                         courl = cohere.chat(model=model,messages=messages)
-                        print(provider)
+                        logger.info(provider)
                         return courl
 
                     if provider == "gemini":
                         gemurl = gemini.models.generate_content(model=model, contents=gemmsgs)
-                        print(provider)
+                        logger.info(provider)
                         return gemurl.text
                 except Exception as e:
                     continue
@@ -111,7 +113,7 @@ def main():
         tempurl = Template(Path("prompturl.jinja").read_text())
         prompturl = tempurl.render()
         aiurl = llm(system = prompturl,user = descr)
-        print(aiurl)
+        logger.info(aiurl)
         result = {}
         loop = False
         q = deque()
@@ -126,7 +128,7 @@ def main():
                 if not q:
                     break
                 jinaurl = f"http://51.21.203.243:3000/{q.popleft()}"
-                print(jinaurl)
+                logger.info(jinaurl)
                 headers = {
                     "X-Engine": "direct",
                     "X-Return-Format": "html"
@@ -303,16 +305,16 @@ def main():
                         "domain_parts": domain_parts,
                         "matching_logs": matching_results.get("process_result", [])
                     }
-                    print(json.dumps(result, indent=4))
+                    logger.info(json.dumps(result, indent=4))
                     q.extend(relevant_links)
                     loop = True
 
-                print(f"Extracted emails: {emails}")
+                logger.info(f"Extracted emails: {emails}")
                 if emails:
                     for email in emails:
                         allemails.add(email)
 
-            print(f"\nAll extracted emails: {allemails}\n")
+            logger.info(f"\nAll extracted emails: {allemails}\n")
 
             tempmsg = Template(Path("promptmsg.jinja").read_text())
             promptmsg = tempmsg.render(desc= descr, type=jobtype, cnp = result["common_name_part"], dp = result["domain_parts"])
@@ -341,20 +343,27 @@ def main():
                     msg.set_content(aimsg)
 
                     encoded_msg = base64.urlsafe_b64encode(msg.as_bytes()).decode("utf-8").replace("\n","")
+
+                    if result["domain_parts"][0] in email:
+                        print("email and domain part matched")
+                        service.users().messages().send(userId="me", body={"raw": encoded_msg,"labelIds": ["SENT"]}).execute()
+                        time.sleep(5)
+                    else:  
                     # service.users().messages().send(userId="me", body={"raw": encoded_msg,"labelIds": ["SENT"]}).execute()
-                    draft = service.users().drafts().create(userId="me", body={"message": {"raw": encoded_msg}}).execute()
-                    print("📧 Draft created:", draft["id"])
+                        draft = service.users().drafts().create(userId="me", body={"message": {"raw": encoded_msg}}).execute()
+                        logger.info("📧 Draft created:", draft["id"])
         if debug == False:
             cursor.execute("DELETE FROM stack WHERE id = %s", (row["id"],))
-            print(f"Deleted processed row with id: {row['id']}")
+            logger.info(f"Deleted processed row with id: {row['id']}")
         cursor.execute("INSERT INTO upwork (`desc`, url, env, upwork_link, relevant_links, socials, email, application, title) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)", (descr, aiurl, jobtype, row["upwork"], json.dumps(result.get("relevant_links",[])), json.dumps(result.get("social_links",[])), json.dumps(list(allemails)), aimsg, aititle))
         conn.commit()
-
-try:
-    main()
-except Exception as e:
-    print (e)
-    if debug == False:
-        cursor.execute("UPDATE stack SET exec = 'running' WHERE id = %s", (row["id"],))
-    print(cursor, "done", row["id"])
-    conn.commit()
+while True:
+    try:
+        main()
+        break
+    except Exception as e:
+        logger.info (e)
+        if debug == False:
+            cursor.execute("UPDATE stack SET exec = 'running' WHERE id = %s", (row["id"],))
+        logger.info(f"Cursor: {cursor} | Status: done | ID: {row['id']}")
+        conn.commit()
