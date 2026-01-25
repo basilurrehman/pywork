@@ -1,3 +1,4 @@
+# %%
 import time
 from loguru import logger
 from types import SimpleNamespace
@@ -37,12 +38,15 @@ conn = mysql.connector.connect(
     database= os.getenv("DB_NAME"),
     port=3306
 )
-
+print(conn)
+# %%
 gemini = genai.Client()
 groq = Groq()
 ollama = OlClient(os.getenv('OLLAMA_HOST'))
 cohere = coclient.ClientV2(os.getenv('COHERE_API_KEY'))
 cursor = conn.cursor(dictionary=True)
+print(cursor)
+# %%
 row = None
 debug=False
 if __name__ == "__main__":
@@ -58,8 +62,10 @@ def main():
             cursor.execute("SELECT * FROM stack WHERE exec = 'debug'")
 
         rows = cursor.fetchall()
+        print(rows)
+        # %%
         conn.commit() 
-        
+
         if not rows:
             logger.info("breaking...")
             break
@@ -71,7 +77,7 @@ def main():
             row = rows[rowcount]
         descr = row["descr"]
         jobtype = row["type"]
-
+        
         def llm(*, system= None, user = None):
             models = [("gemini", "gemini-2.5-flash"),("groq", "openai/gpt-oss-120b"),("ollama", "deepseek-v3.1:671b-cloud"),("cohere","command-a-03-2025")]
             messages = []
@@ -364,6 +370,6 @@ while True:
     except Exception as e:
         logger.info (e)
         if debug == False:
-            cursor.execute("UPDATE stack SET exec = 'running' WHERE id = %s", (row["id"],))
+            cursor.execute("UPDATE stack SET exec = 'running', error = %s WHERE id = %s", (str(e),row["id"]))
         logger.info(f"Cursor: {cursor} | Status: done | ID: {row['id']}")
         conn.commit()
